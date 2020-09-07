@@ -9,6 +9,8 @@ public class Loginsite {
 		
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.seleniumeasy.com/test/drag-and-drop-demo.html");
-	
+		
+		String title=driver.getTitle();
+		String url=driver.getCurrentUrl();
 	}
 }
